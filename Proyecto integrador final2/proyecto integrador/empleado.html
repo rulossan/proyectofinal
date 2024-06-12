@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Centro Médico San Patricio</title>
+</head>
+<body>
+    <div class="menu">
+    <header class="header">
+        <div class="logo">
+            <div class="imagen">
+            <img src="./imagenes/logo.png" alt="imagen del logo del centro medico"  width="170" height="100">
+        </div>
+        </div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle"><img src="./imagenes/menu (1).svg" alt="Menu"></label>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="#">Ingresar</a>
+                <ul>
+                    <li><a href="./usuario.html">Usuario</a></li>
+                    <li><a href="./empleado.html">Empleado</a></li>
+                    <li><a href="./administrador.html">Administrador</a></li>
+                </ul>
+                </li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor2">
+        <div class="titulo">
+            <h1>Empleado</h1>
+        </div>
+        <form>
+            <span>Tipo de documento</span>
+            <input list="tipo">
+            <datalist id="tipo">
+                <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                <option value="Cédula de Ciudadanía">Cédula de Ciudadanía</option>
+                <option value="Cédula Extranjería">Cédula Extranjería</option>
+                <option value="Pasaporte">Pasaporte</option>
+            </datalist>
+            <label for="Número del documento">Número del documento</label>
+            <input type="text"name="Número del documento" size="15">
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" placeholder="Contraseña" size="32">
+            <button><a href="./consultas.html">Ingresar</a></button>
+        </form>
+        </div>
+    </div>
+    <footer class="abajo">
+        <div class="izq">
+        <img src="..//proyecto integrador/imagenes/logo.png" alt="" width="170" height="100">
+        </div>
+        <div class="dere">
+        <p class="redes">Siguenos</p>
+        <div class="img">
+            <img src="..//proyecto integrador/imagenes/X.jpg" alt="" width="50" height="50">
+            <img src="..//proyecto integrador/imagenes/inst.jpg" alt="" width="50" height="50">
+            <img src="..//proyecto integrador/imagenes/you.jpg" alt="" width="50" height="50">
+            <img src="..//proyecto integrador/imagenes/face.jpg" alt="" width="50" height="50">
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

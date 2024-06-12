@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Centro Médico San Patricio</title>
+</head>
+<body>
+    <div class="menu">
+        <header class="header">
+            <div class="logo">
+                <div class="imagen">
+                <img src="./imagenes/logo.png" alt="imagen del logo del centro medico"  width="170" height="100">
+            </div>
+            </div>
+            <input type="checkbox" id="toggle">
+            <label for="toggle"><img src="./imagenes/menu (1).svg" alt="Menu"></label>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="#">Ingresar</a>
+                    <ul>
+                        <li><a href="./usuario.html">Usuario</a></li>
+                        <li><a href="./empleado.html">Empleado</a></li>
+                        <li><a href="./administrador.html">Administrador</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="./contactenos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="contenedor3">
+        <div class="titulo">
+            <h1>Regístrate</h1>
+        </div>
+        <form action="">
+            <label for="Nombre Completo">Nombre Completo</label>
+            <input type="text"name="Nombre Completo" size="50">
+            <span>Tipo de documento</span>
+            <input list="tipo">
+            <datalist id="tipo">
+                <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                <option value="Cédula de Ciudadanía">Cédula de Ciudadanía</option>
+                <option value="Cédula Extranjería">Cédula Extranjería</option>
+                <option value="Pasaporte">Pasaporte</option>
+            </datalist>
+            <label for="Número del documento">Número del documento</label>
+            <input type="text"name="Número del documento" size="15">
+            <label for="email">Correo Electronico</label>
+            <input type="email" name="email" id="email" size="30">
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" placeholder="Contraseña" size="32">
+            <label for="Contraseña">Repite Contraseña</label>
+            <input type="password" placeholder="Contraseña" size="32">
+            <button><a href="./citas.html">Registrate</a></button>
+            <input type="reset" class="Borrar" value="Borrar">
+        </form>
+    </div>
+    </div>
+</body>
+</html>
